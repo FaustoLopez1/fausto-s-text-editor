@@ -30,7 +30,6 @@ export const getDb = async () => {
   const request = store.getAll();
   const result = await request;
   console.error("getDb not implemented", result);
-  return result;
 };
 
 initdb();
